@@ -11,9 +11,6 @@ than one application to do it. Then I wrote this small app to handle it instead.
 
 ## How?
 
-- Librarian keeps an index with all your documents' metadata at
-  `~/.library/index.json`.
-
 - When you store a document using `lbr add`, the file is copied to the
   `~/.library` folder and the metadata is added to the index file. Each
   document is indexed using the hash of the file. Additionally you can provide
